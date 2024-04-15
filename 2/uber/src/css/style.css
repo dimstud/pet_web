@@ -30,16 +30,45 @@
     padding-top: 19px;
     background: rgba(0, 0, 0, .6);
 }
-.subheader_link-logo {
+.logo {
+    display: block;
+    text-decoration: none;
 }
-.subheader_logo {
+.logo_img {
+    margin-bottom: 8px;
 }
-.subheader_desc-logo {
+.logo_desc {
+    margin-bottom: 0;
     font-weight: 100;
+    font-size: 13px;
+    line-height: 13px;
+    color: #FFFFFF;
 }
 .subheader_phone {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
 }
 .subheader_tel {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 .subheader_btn {
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0 -3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
