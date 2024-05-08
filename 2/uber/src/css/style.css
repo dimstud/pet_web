@@ -26,7 +26,8 @@
 }
 
 .subheader {
-    position: relative;
+    position: absolute;
+    width: 100%;
     min-height: 87px;
     padding-top: 19px;
     background: rgba(0, 0, 0, .6);
@@ -75,11 +76,8 @@
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
 }
 
-
 .promo {
     padding: 140px 0 185px;
-    transform: translateY(-87px);
-    z-index: 1;
     min-height: 800px;
     background: url('../img/promo_bg.jpg') center center/cover no-repeat;
 }
@@ -113,4 +111,41 @@
     text-transform: uppercase;
     color: #FFFFFF;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reasons {
+    padding: 20px 0px 64px 0px;
+}
+.reasons__leable {
+    display: block;
+    width: 112px;
+    height: 24px;
+    margin: 0 auto 32px;
+    background-color: #000000;
+    font-size: 11px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.reasons__title {
+    margin-bottom: 22px;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.reasons__block {
+}
+.reasons__round {
+    background-color: #1EACC7;
+}
+.reasons__icon {
+}
+.reasons__descr {
+}
+.reasons__block-title {
+}
+.reasons__block-text {
 }
