@@ -137,15 +137,29 @@
     text-transform: uppercase;
 }
 .reasons__block {
+    display: flex;
+    margin-bottom: 24px;
 }
 .reasons__round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 116px;
+    height: 116px;
+    margin-right: 24px;
+    border-radius: 100%;
     background-color: #1EACC7;
 }
 .reasons__icon {
 }
 .reasons__descr {
+    width: 370px;
 }
 .reasons__block-title {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 128x;
+    color: #1EACC7;
 }
 .reasons__block-text {
 }
