@@ -263,3 +263,11 @@
   width: 760px;
   margin: 0 auto;
 }
+.auto_desc {
+  width: 326px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+}
