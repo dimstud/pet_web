@@ -41,6 +41,7 @@
   color: #222222;
 }
 .subtitle_white {
+  margin-bottom: 54px;
   color: #ffffff;
 }
 
@@ -257,4 +258,8 @@
   padding-top: 60px;
   padding-bottom: 138px;
   background: url("../img/auto_bg.png") center center/cover no-repeat;
+}
+.auto_img {
+  width: 760px;
+  margin: 0 auto;
 }
