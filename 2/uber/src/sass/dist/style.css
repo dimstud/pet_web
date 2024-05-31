@@ -271,3 +271,7 @@
   font-size: 17px;
   line-height: 24px;
 }
+
+.capabilities {
+  min-height: 914px;
+}
