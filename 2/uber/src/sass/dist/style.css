@@ -28,6 +28,9 @@
   text-align: center;
   text-transform: uppercase;
 }
+.title_white {
+  color: #ffffff;
+}
 
 .subtitle {
   margin-bottom: 30px;
@@ -36,6 +39,9 @@
   line-height: 21px;
   text-align: center;
   color: #222222;
+}
+.subtitle_white {
+  color: #ffffff;
 }
 
 .nav {
@@ -244,4 +250,11 @@
 }
 .mobile_item_plus img {
   width: 70%;
+}
+
+.auto {
+  min-height: 900px;
+  padding-top: 60px;
+  padding-bottom: 138px;
+  background: url("../img/auto_bg.png") center center/cover no-repeat;
 }
