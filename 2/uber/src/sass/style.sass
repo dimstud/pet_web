@@ -1,3 +1,6 @@
+$color_blue:#1EACC7
+
+
 * 
 	font-family: "Roboto", sans-serif 
 	font-style: normal 
@@ -28,6 +31,7 @@
 	&_white
 		color: #ffffff
 
+
 .subtitle
 	margin-bottom: 30px
 	font-weight: 400
@@ -40,6 +44,9 @@
 		color: #ffffff
 
 .nav 
+	position: fixed
+	width: 100%
+	z-index: 10
 	min-height: 50px 
 	background: #212121 
 .menu 
@@ -57,6 +64,7 @@
 	color: #FFFFFF 
 	text-decoration: none 
 .subheader 
+	margin-top: 50px
 	position: absolute 
 	width: 100% 
 	min-height: 87px 
@@ -91,7 +99,7 @@
 	height: 46px 
 	box-shadow: inset 0 -3px rgba(0, 0, 0, 0.12) 
 	border-radius: 4px 
-	background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%) 
+	background-image: linear-gradient(to top, $color_blue 0%, #4ce2ff 100%) 
 	font-weight: 400 
 	font-size: 14px 
 	text-align: center 
@@ -121,7 +129,7 @@
 	margin: 0 auto 
 	box-shadow: inset 0 -3px rgba(0, 0, 0, 0.12) 
 	border-radius: 4px 
-	background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%) 
+	background-image: linear-gradient(to top, $color_blue 0%, #4ce2ff 100%) 
 	font-weight: 400 
 	font-size: 18px 
 	text-align: center 
@@ -149,7 +157,7 @@
 	margin-bottom: 10px 
 	font-weight: 400 
 	font-size: 128x 
-	color: #1EACC7 
+	color: $color_blue 
 
 .mobile
 	padding: 48px 60px
