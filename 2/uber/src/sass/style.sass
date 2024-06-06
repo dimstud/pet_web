@@ -1,10 +1,12 @@
-$color_blue:#1EACC7
+$color_blue: #1EACC7
 
 
 * 
 	font-family: "Roboto", sans-serif 
 	font-style: normal 
-
+ul, li
+	margin: 0
+	padding: 0
 
 .leable 
 	display: block 
@@ -32,6 +34,8 @@ $color_blue:#1EACC7
 		color: #ffffff
 	&_mbbig
 		margin-bottom: 37px
+	&_mbn
+		margin-bottom: 0
 		
 
 
@@ -225,4 +229,64 @@ $color_blue:#1EACC7
 
 .capabilities
 	min-height: 914px
-	margin: 63px 0 87px
+	padding: 65px 0 30px
+	&_block
+		margin-bottom: 60px
+		width: 480px
+		&_alarm
+			.capabilities_title
+				color: #FF5656
+			.capabilities_item
+				&:before
+					background: url('../img/checked_red.png') center center/cover no-repeat
+
+	&_title
+		margin-bottom: 16px
+		font-size: 22px
+		line-height: 22px
+		font-weight: 400
+		color: $color_blue
+		&_alarm
+			color: #FF5656
+	&_list
+		list-style-type: none
+	&_item
+		position: relative
+		margin-left: 50px
+		font-size: 17px
+		line-height: 28px
+		font-weight: 300
+		color: #222222
+		&:before
+			content: ""
+			position: absolute
+			top: 4px
+			left: -32px
+			display: block
+			width: 21px
+			height: 20px
+			background: url('../img/checked_blue.png') center center/cover no-repeat
+	&_desc
+		margin-top: 25px
+		font-size: 17px
+		line-height: 24px
+		font-weight: 300
+		color: $color_blue
+
+.world
+	position: relative
+	min-height:716px
+	padding: 46px 0 22px
+	background: url('../img/world_bg.jpg') center center/cover no-repeat
+	&_btn
+		position: absolute
+		bottom: 22px
+		left: 50%
+		padding: 0 16px
+		transform: translateX(-50%)
+		font-size: 15px
+		line-height: 68px
+		font-weight: 400
+		color: $color_blue
+		background: none
+		border: none
