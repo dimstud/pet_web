@@ -4,6 +4,8 @@ $color_blue: #1EACC7
 * 
 	font-family: "Roboto", sans-serif 
 	font-style: normal 
+ul
+	list-style-type: none
 ul, li
 	margin: 0
 	padding: 0
@@ -292,3 +294,30 @@ ul, li
 		color: $color_blue
 		background: none
 		border: none
+
+.footer
+	padding: 11px 0 38px
+	&_divider
+		width: 300px
+		height: 4px
+		margin: 0 auto
+		background: $color_blue
+	&_wrapper
+		display: flex
+		justify-content: space-between
+		align-items: flex-start
+		padding-top: 32px
+		&>div
+			width: 33%
+			&:nth-child(3)
+				justify-content: flex-end
+
+	&_socials,
+	&_menu_main,
+	&_menu_sub,
+	&_languages,
+	&_stores
+		display: flex
+		justify-content: space-between
+		align-items: center
+
