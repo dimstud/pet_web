@@ -6,9 +6,10 @@ $color_blue: #1EACC7
 	font-style: normal 
 ul
 	list-style-type: none
-ul, li
+ul, ol, li
 	margin: 0
 	padding: 0
+	line-height: 1rem
 
 .leable 
 	display: block 
@@ -296,7 +297,7 @@ ul, li
 		border: none
 
 .footer
-	padding: 11px 0 38px
+	padding: 13px 20px 38px
 	&_divider
 		width: 300px
 		height: 4px
@@ -309,8 +310,6 @@ ul, li
 		padding-top: 32px
 		&>div
 			width: 33%
-			&:nth-child(3)
-				justify-content: flex-end
 
 	&_socials,
 	&_menu_main,
@@ -318,6 +317,60 @@ ul, li
 	&_languages,
 	&_stores
 		display: flex
-		justify-content: space-between
 		align-items: center
+	&_socials
+		justify-content: flex-start
+	&_social
+		margin-right: 6px
+		&-link
+			display: flex
+			justify-content: center
+			align-items: center
+			width: 35px
+			height: 35px
+			border-radius: 100%
+			background: #070716
+			i
+				color: #ffffff
+	&_menu_main
+		margin-bottom: 12px
+		&_link
+			padding: 0 23px
+			font-size: 15px
+			font-weight: 300
+			line-height: 15px
+			text-transform: uppercase
+			text-decoration: none
+			color: #070716
+	&_menu_sub
+		margin-bottom: 16px
+		&_item
+			margin-right: 20px
+			&:last-child
+				margin-right: 0
+		&_link
+			font-size: 15px
+			font-weight: 300
+			line-height: 15px
+			text-transform: uppercase
+			text-decoration: none
+			color: #999999
+	&_menu_main,
+	&_menu_sub,
+	&_languages
+		justify-content: center
+	&_language
+		&_link
+			font-size: 11px
+			font-weight: 400
+			text-transform: uppercase
+			text-decoration: none
+			color: $color_blue
+	&_stores
+		justify-content: flex-end
+	&_store
+		margin-left: 7px
+
+
+	
 
