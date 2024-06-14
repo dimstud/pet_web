@@ -1,4 +1,11 @@
 $color_blue: #1EACC7
+$color_red: #ff5656
+
+=btn_hover
+	&:hover
+		background-image: none
+		background: $color_blue 
+
 
 
 * 
@@ -116,6 +123,7 @@ ul, ol, li
 	text-transform: uppercase 
 	color: #FFFFFF 
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21) 
+	+btn_hover
 .promo 
 	padding: 140px 0 185px 
 	min-height: 800px 
@@ -146,6 +154,7 @@ ul, ol, li
 	text-transform: uppercase 
 	color: #FFFFFF 
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21) 
+	+btn_hover
 .reasons 
 	padding: 20px 0px 64px 0px 
 
@@ -203,16 +212,35 @@ ul, ol, li
 			position: absolute
 			bottom: 34px
 			transform: translateX(-50%)
-			display: flex
-			justify-content: center
-			align-items: center
 			left: 50%
 			width: 30px
 			height: 30px
 			border-radius: 50%
 			background: #000000
-			img
-				width: 70%
+			&:before
+				content: ''
+				position: absolute
+				top: 50%
+				left: 6px
+				transform: translateY(-50%)
+				display: block
+				width: 17px
+				height: 2px
+				background: $color_blue
+			&:after
+				content: ''
+				position: absolute
+				top: 6px
+				left: 50%
+				transform: translateX(-50%)
+				display: block
+				width: 2px
+				height: 17px
+				background: $color_blue
+			&:hover
+				&:before, &:after
+					background: $color_red
+
 
 .auto
 	min-height: 900px
