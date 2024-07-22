@@ -1,0 +1,52 @@
+@media (max-width: 1200px) {
+  .menu {
+    padding-top: 17px;
+  }
+  .menu_item:not(:last-child) {
+    padding-right: 23px;
+  }
+  .menu_link {
+    font-size: 13px;
+  }
+
+  .promo_title {
+    font-size: 48px;
+  }
+
+  .reasons__descr {
+    width: 300px;
+  }
+
+  .mobile_item {
+    width: 270px;
+  }
+  .mobile_item_title {
+    font-size: 20px;
+  }
+
+  .capabilities_title {
+    font-size: 20px;
+  }
+  .capabilities_item {
+    font-size: 15px;
+  }
+  .capabilities_desc {
+    font-size: 15px;
+  }
+
+  .footer_menu_sub {
+    justify-content: space-around;
+  }
+  .footer_menu_sub_item {
+    margin-right: 0;
+  }
+  .footer_menu_main_link {
+    font-size: 13px;
+  }
+  .footer_menu_sub_link {
+    font-size: 11px;
+  }
+  .footer_store_link img {
+    width: 100%;
+  }
+}
