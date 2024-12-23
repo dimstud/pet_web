@@ -1,0 +1,24 @@
+body {
+    display: grid;
+}
+
+header {
+    min-height: 200px;
+    background-color: #fff123;
+}
+
+main {
+    min-height: 200px;
+    background-color: #f03212;
+}
+
+aside {
+    min-height: 200px;
+    background-color: #2355ff;
+}
+
+footer {
+    min-height: 200px;
+    background-color: #55ff22;
+}
+
