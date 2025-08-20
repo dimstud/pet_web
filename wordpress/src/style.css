@@ -1,0 +1,77 @@
+ 
+* {
+  font-family: 'MontserratAlternates', monospace;
+  color: #0D0D0D;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  margin-top: 120px;
+  padding-top: 15px;
+  background-color: #0D0D0D;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  @media only screen and (min-width:768px) and (max-width:1199px)and (orientation:landscape) {
+    margin-top: 50px;
+  }
+  
+  @media(max-width:768px) {
+    margin-top: 50px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+html {
+  height: 100%;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  @media(max-width: 1200px) {
+    width: 960px;
+  }
+  @media (max-width: 962px) {
+    width: 768px;
+  }
+  @media (max-width: 770px) {
+    width: 576px;
+  }
+  @media(max-width: 575px) {
+    width: 320px;
+  }
+}
+ 
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
